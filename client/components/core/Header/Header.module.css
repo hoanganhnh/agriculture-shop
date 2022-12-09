@@ -11,6 +11,8 @@
   font-size: 3rem;
   font-weight: 600;
   color: var(--color-text-primary);
+  display: flex;
+  align-items: center;
 }
 
 .headerWrapper {

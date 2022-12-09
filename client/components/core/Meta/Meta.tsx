@@ -9,17 +9,18 @@ interface Props {
 
 const Meta = ({
   title = 'Buy best and quality products',
-  description = 'Dress Shop | Buy best and quality products',
+  description = 'Agriculture Shop | Buy best and quality products',
+  // TODO
   image = 'https://dress-shop.vercel.app/featured.png',
 }: Props) => {
-  const siteTitle = `Dress Shop | ${title}`;
+  const siteTitle = `Agriculture Shop | ${title}`;
 
   return (
     <Head>
       <title>{siteTitle}</title>
 
       <meta name="twitter:card" content={description} />
-      <meta name="twitter:site" content="@dress_shop" />
+      <meta name="twitter:site" content="@agriculture_shop" />
       <meta name="twitter:title" content={siteTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />

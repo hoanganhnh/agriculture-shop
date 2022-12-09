@@ -1,7 +1,7 @@
 {
-  "name": "dress-shop",
+  "name": "agriculture-shop",
   "version": "1.0.0",
-  "description": "A full stack e-commerce website for clothing store.",
+  "description": "agriculture-shop",
   "main": "index.js",
   "scripts": {
     "server": "npm run dev --prefix server",
@@ -10,15 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jrussumbrella/dress-shop.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jrussumbrella/dress-shop/issues"
-  },
-  "homepage": "https://github.com/jrussumbrella/dress-shop#readme",
   "devDependencies": {
     "concurrently": "^5.2.0"
   },

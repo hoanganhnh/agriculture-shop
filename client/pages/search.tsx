@@ -19,7 +19,7 @@ const Search = () => {
   const products = data || [];
 
   const handleTabChange = (selected: string) => {
-    Router.push({ pathname, query: { ...query, category: selected } });
+    Router.push({ pathname, query: { category: selected } });
   };
 
   const handleFilterChange = (selected: string) => {
