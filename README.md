@@ -1,12 +1,6 @@
 # DRESS SHOP
 
-### A full stack e-commerce website for clothing store.
-
-### [Live demo](https://dress-shop.vercel.app/)
-
-## Screenshots
-
-![Thumbnail](dress-home-page.png)
+## A full stack e-commerce website for agriculture store
 
 ## Stacks
 
@@ -19,23 +13,17 @@
 - Stripe and Paypal (for payment)
 - Vercel (for deployment)
 
-### Clone Repository
-
-```
-git clone https://github.com/jrussumbrella/dress-shop-web.git
-```
-
 ### Client Installation
 
-```
-cd dress-shop
+``` sh
+cd 
 cd client
 npm install or yarn install
 ```
 
 #### Add .env.local file to root client directory
 
-```
+```sh
 NEXT_PUBLIC_PAYPAL_CLIENT_ID=
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KY=
 NEXT_PUBLIC_GOOGLE_CLIENT_ID=
@@ -43,14 +31,14 @@ NEXT_PUBLIC_GOOGLE_CLIENT_ID=
 
 ## Server Installation
 
-```
+```sh
 cd server
 npm install or yarn install
 ```
 
-#### Add .env file to root server directory
+### Add .env file to root server directory
 
-```
+```sh
 DATABASE_URI=
 JWT_SECRET=
 STRIPE_SECRET_API_KEY=
@@ -67,7 +55,7 @@ PAYPAL_CLIENT_SECRET=
 
 ### This will run both client and server
 
-```
+```sh
 npm run dev
 ```
 
@@ -75,18 +63,18 @@ npm run dev
 
 ### Globally install vercel
 
-```
+```sh
 npm i -g vercel
 ```
 
 ### Client
 
-```
+```sh
 vercel --prod
 ```
 
 ## Server
 
-```
+```sh
 vercel --prod
 ```
