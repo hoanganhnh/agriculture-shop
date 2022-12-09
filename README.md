@@ -1,4 +1,4 @@
-# DRESS SHOP
+# Agriculture Shop
 
 ## A full stack e-commerce website for agriculture store
 
